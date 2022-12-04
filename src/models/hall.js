@@ -18,11 +18,11 @@ const hall = new Schema({
     },
     phone: String,
     address: {
-        cidade: String,
+        city: String,
         uf: String,
-        cep: String,
-        numero: String,
-        pais: String,
+        zipCode: String,
+        number: String,
+        country: String,
     },
     geo: {
         tipo: String,
@@ -30,7 +30,7 @@ const hall = new Schema({
     },
     createdAt: {
         type: Date,
-        default: Data.now,
+        default: Date.now,
     }
 });
 

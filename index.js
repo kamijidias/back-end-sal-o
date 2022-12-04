@@ -1,7 +1,7 @@
-const { application } = require('express');
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
+require('./database');
 
 // MIDDLEWARES
 app.use(morgan('dev'))

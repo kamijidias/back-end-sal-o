@@ -5,6 +5,7 @@ const service = new Schema({
     hallId: {
         type: mongoose.Types.ObjectId,
         ref: 'Hall',
+        required: true,
     },
     title: {
         type: String,
