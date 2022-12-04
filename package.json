@@ -1,0 +1,26 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Back-end salão de beleza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamijidias/back-end-sal-o.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamijidias/back-end-sal-o/issues"
+  },
+  "homepage": "https://github.com/kamijidias/back-end-sal-o#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
